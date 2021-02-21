@@ -63,7 +63,7 @@ class App extends Component {
         break;
       case "2":
         if (img2.width > img2.height) {
-          ctx.drawImage(img2, (img1.width/2)-(1500/2), 550, 1500, (img2.height/img2.width)*1500);
+          ctx.drawImage(img2, (img1.width/2)-(1100/2), 550, 1100, (img2.height/img2.width)*1100);
         } else {
           ctx.drawImage(img2, (img1.width/2)-(850/2), 350, 850, (img2.height/img2.width)*850);
         }
