@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/PhotoMerge/static/css/main.627ec4ea.chunk.css",
-    "main.js": "/PhotoMerge/static/js/main.8e7d9ab0.chunk.js",
-    "main.js.map": "/PhotoMerge/static/js/main.8e7d9ab0.chunk.js.map",
+    "main.js": "/PhotoMerge/static/js/main.4c0a0f60.chunk.js",
+    "main.js.map": "/PhotoMerge/static/js/main.4c0a0f60.chunk.js.map",
     "runtime-main.js": "/PhotoMerge/static/js/runtime-main.21fd8dca.js",
     "runtime-main.js.map": "/PhotoMerge/static/js/runtime-main.21fd8dca.js.map",
     "static/js/2.a0f7267c.chunk.js": "/PhotoMerge/static/js/2.a0f7267c.chunk.js",
@@ -11,12 +11,14 @@
     "static/js/3.75daf22c.chunk.js.map": "/PhotoMerge/static/js/3.75daf22c.chunk.js.map",
     "index.html": "/PhotoMerge/index.html",
     "static/css/main.627ec4ea.chunk.css.map": "/PhotoMerge/static/css/main.627ec4ea.chunk.css.map",
-    "static/js/2.a0f7267c.chunk.js.LICENSE.txt": "/PhotoMerge/static/js/2.a0f7267c.chunk.js.LICENSE.txt"
+    "static/js/2.a0f7267c.chunk.js.LICENSE.txt": "/PhotoMerge/static/js/2.a0f7267c.chunk.js.LICENSE.txt",
+    "static/media/wall-1.5192d193.jpg": "/PhotoMerge/static/media/wall-1.5192d193.jpg",
+    "static/media/wall-2.3f34c13b.jpg": "/PhotoMerge/static/media/wall-2.3f34c13b.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.21fd8dca.js",
     "static/js/2.a0f7267c.chunk.js",
     "static/css/main.627ec4ea.chunk.css",
-    "static/js/main.8e7d9ab0.chunk.js"
+    "static/js/main.4c0a0f60.chunk.js"
   ]
 }
