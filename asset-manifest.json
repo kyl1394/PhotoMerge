@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/PhotoMerge/static/css/main.7e74017b.chunk.css",
-    "main.js": "/PhotoMerge/static/js/main.aa2b104d.chunk.js",
-    "main.js.map": "/PhotoMerge/static/js/main.aa2b104d.chunk.js.map",
+    "main.js": "/PhotoMerge/static/js/main.98ad04a7.chunk.js",
+    "main.js.map": "/PhotoMerge/static/js/main.98ad04a7.chunk.js.map",
     "runtime-main.js": "/PhotoMerge/static/js/runtime-main.21fd8dca.js",
     "runtime-main.js.map": "/PhotoMerge/static/js/runtime-main.21fd8dca.js.map",
     "static/js/2.a0f7267c.chunk.js": "/PhotoMerge/static/js/2.a0f7267c.chunk.js",
@@ -17,12 +17,13 @@
     "static/media/wall-3.dc6be7cc.jpg": "/PhotoMerge/static/media/wall-3.dc6be7cc.jpg",
     "static/media/wall-4.7e38099f.jpg": "/PhotoMerge/static/media/wall-4.7e38099f.jpg",
     "static/media/wall-5.c9cf193a.jpg": "/PhotoMerge/static/media/wall-5.c9cf193a.jpg",
-    "static/media/wall-6.0b6d19c4.jpg": "/PhotoMerge/static/media/wall-6.0b6d19c4.jpg"
+    "static/media/wall-6.0b6d19c4.jpg": "/PhotoMerge/static/media/wall-6.0b6d19c4.jpg",
+    "static/media/wall-7.6d3e5caf.jpg": "/PhotoMerge/static/media/wall-7.6d3e5caf.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.21fd8dca.js",
     "static/js/2.a0f7267c.chunk.js",
     "static/css/main.7e74017b.chunk.css",
-    "static/js/main.aa2b104d.chunk.js"
+    "static/js/main.98ad04a7.chunk.js"
   ]
 }
