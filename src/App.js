@@ -5,6 +5,7 @@ import wall2 from './walls/wall-2.jpg';
 import wall3 from './walls/wall-3.jpg';
 import wall4 from './walls/wall-4.jpg';
 import wall5 from './walls/wall-5.jpg';
+import wall6 from './walls/wall-6.jpg';
 
 class App extends Component {
   state = {
@@ -78,6 +79,9 @@ class App extends Component {
       case "5":
         ctx.drawImage(img2, 684, 171, 1154, 758);
         break;
+      case "6":
+        ctx.drawImage(img2, 1764, 571, 640, 890);
+        break;
     }
   }
 
@@ -114,6 +118,7 @@ class App extends Component {
             <img data-image-selector="3" src={wall3} style={{height: "100%"}} onClick={this.setSelectedWall} className={this.state.selectedWallIndex == 3 ? "image selected" : "image"} />
             <img data-image-selector="4" src={wall4} style={{height: "100%"}} onClick={this.setSelectedWall} className={this.state.selectedWallIndex == 4 ? "image selected" : "image"} />
             <img data-image-selector="5" src={wall5} style={{height: "100%"}} onClick={this.setSelectedWall} className={this.state.selectedWallIndex == 5 ? "image selected" : "image"} />
+            <img data-image-selector="6" src={wall6} style={{height: "100%"}} onClick={this.setSelectedWall} className={this.state.selectedWallIndex == 6 ? "image selected" : "image"} />
           </div>
         </div>
         
