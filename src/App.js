@@ -2,6 +2,7 @@ import './App.css';
 import { Component } from 'react';
 import wall1 from './walls/wall-1.jpg';
 import wall2 from './walls/wall-2.jpg';
+import wall3 from './walls/wall-3.jpg';
 
 class App extends Component {
   state = {
@@ -66,6 +67,9 @@ class App extends Component {
           ctx.drawImage(img2, (img1.width/2)-(850/2), 350, 850, (img2.height/img2.width)*850);
         }
         break;
+      case "3":
+        ctx.drawImage(img2, 1789, 499, 1143, 759);
+        break;
     }
   }
 
@@ -99,6 +103,7 @@ class App extends Component {
           <div className="wall-selector">
             <img data-image-selector="1" src={wall1} style={{height: "100%"}} onClick={this.setSelectedWall} className={this.state.selectedWallIndex == 1 ? "image selected" : "image"} />
             <img data-image-selector="2" src={wall2} style={{height: "100%"}} onClick={this.setSelectedWall} className={this.state.selectedWallIndex == 2 ? "image selected" : "image"} />
+            <img data-image-selector="3" src={wall3} style={{height: "100%"}} onClick={this.setSelectedWall} className={this.state.selectedWallIndex == 3 ? "image selected" : "image"} />
           </div>
         </div>
         
