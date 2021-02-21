@@ -1,5 +1,7 @@
 import './App.css';
 import { Component } from 'react';
+import wall1 from './walls/wall-1.jpg';
+import wall2 from './walls/wall-2.jpg';
 
 class App extends Component {
   state = {
@@ -95,8 +97,8 @@ class App extends Component {
           <img data-image-selector="selected-image" className={this.state.selectedFile ? "" : "hidden"} style={{maxHeight: "30rem"}} src="/baldy.jpg" />
           
           <div className="wall-selector">
-            <img data-image-selector="1" src="/walls/wall-1.jpg" style={{height: "100%"}} onClick={this.setSelectedWall} className={this.state.selectedWallIndex == 1 ? "image selected" : "image"} />
-            <img data-image-selector="2" src="/walls/wall-2.jpg" style={{height: "100%"}} onClick={this.setSelectedWall} className={this.state.selectedWallIndex == 2 ? "image selected" : "image"} />
+            <img data-image-selector="1" src={wall1} style={{height: "100%"}} onClick={this.setSelectedWall} className={this.state.selectedWallIndex == 1 ? "image selected" : "image"} />
+            <img data-image-selector="2" src={wall2} style={{height: "100%"}} onClick={this.setSelectedWall} className={this.state.selectedWallIndex == 2 ? "image selected" : "image"} />
           </div>
         </div>
         
