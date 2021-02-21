@@ -93,7 +93,7 @@ class App extends Component {
         </p>
   
         <div className="grid">
-          <input type="file" onChange={this.fileSelectedHandler} style={{flexBasis: "100%"}} />
+          <input className="uploadButton" type="file" onChange={this.fileSelectedHandler} style={{flexBasis: "100%"}} />
           <img data-image-selector="selected-image" className={this.state.selectedFile ? "" : "hidden"} style={{maxHeight: "30rem"}} src="/baldy.jpg" />
           
           <div className="wall-selector">
@@ -102,7 +102,7 @@ class App extends Component {
           </div>
         </div>
         
-        <button className="card" onClick={this.fileUploadHandler} disabled={this.state.selectedFile == false || this.state.selectedWallIndex == 0}>Combine</button>
+        <button className="card combineButton" onClick={this.fileUploadHandler} disabled={this.state.selectedFile == false || this.state.selectedWallIndex == 0}>Combine</button>
         <br/>
         <br/>
         <br />
