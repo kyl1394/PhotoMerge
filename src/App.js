@@ -98,10 +98,6 @@ class App extends Component {
             <img data-image-selector="1" src="/walls/wall-1.jpg" style={{height: "100%"}} onClick={this.setSelectedWall} className={this.state.selectedWallIndex == 1 ? "image selected" : "image"} />
             <img data-image-selector="2" src="/walls/wall-2.jpg" style={{height: "100%"}} onClick={this.setSelectedWall} className={this.state.selectedWallIndex == 2 ? "image selected" : "image"} />
           </div>
-          {/* <a href="https://nextjs.org/docs" className="card">
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a> */}
         </div>
         
         <button className="card" onClick={this.fileUploadHandler} disabled={this.state.selectedFile == false || this.state.selectedWallIndex == 0}>Combine</button>
